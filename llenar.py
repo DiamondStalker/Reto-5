@@ -67,7 +67,7 @@ def Nuevo_usuario():
       Nombre = Nombreu,
       Matematicas = dict(Notas=Matematicasu,Promedio=PromedioM),
       Ingles = dict(Notas=Inglesu,Promedio=PromedioI),
-      Programacion = dict(Notas=Programacionu,Promedio=Matematicasu),
+      Programacion = dict(Notas=Programacionu,Promedio=PromedioP),
       Promedio_semestre = PromedioS
       )
 

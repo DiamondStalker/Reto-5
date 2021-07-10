@@ -43,7 +43,7 @@ from colorama import Fore
 colorama.init()
 
 import llenar
-import Mostrar as Todos
+import MostrarUsuarios as Todos
 
 
 def borrarPantalla(): # Funcion para saber el sistema operativo, y dependiendo de ella aplicamos un borrado de pantalla
@@ -71,5 +71,6 @@ while Opc != 0:
   Opc = int (input (" \n          Ingrese el valor numerico segun el menu  "))
 
   if Opc == 1: llenar.Nuevo_usuario()
-  if Opc == 2: Todos.mostrar()
+  if Opc == 2: Todos.Mostrar_Agenda()
+  if Opc == 3: Buscar.Buscar()
   if Opc == 0: input (" Presiona Enter para finalizar...")
