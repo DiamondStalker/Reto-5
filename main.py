@@ -45,6 +45,7 @@ colorama.init()
 import llenar
 import MostrarUsuarios as Todos
 import Buscar
+import OrdenarPromedio as OrdenarM
 
 
 def borrarPantalla(): # Funcion para saber el sistema operativo, y dependiendo de ella aplicamos un borrado de pantalla
@@ -65,8 +66,8 @@ while Opc != 0:
   print ("\n           1. Insertar nuevo estudiantes")
   print ("\n           2. Mostrar todos los estudiantes")
   print ("\n           3. Buscar un usario y mirar si aprobo")
-  print ("\n           4. Mostrar los mejores estudiantes por materia")
-  print ("\n           5. Mostrar los mejores promedios del semestre")
+  print ("\n           4. Mostrar los mejores estudiantes")
+  print ("\n           5. Eliminar un estudiante")
   print ("\n┗━━━━━━━━━━━━━━━━━━━━ MENU ESTUDIANTES ━━━━━━━━━━━━━━━━━━━━┛")
 
   Opc = int (input (" \n          Ingrese el valor numerico segun el menu  "))
@@ -74,4 +75,5 @@ while Opc != 0:
   if Opc == 1: llenar.Nuevo_usuario()
   if Opc == 2: Todos.Mostrar_Agenda()
   if Opc == 3: Buscar.Buscar_estudiante()
+  if Opc == 4: OrdenarM.Ordenar()
   if Opc == 0: input (" Presiona Enter para finalizar...")

@@ -1,0 +1,70 @@
+{
+  "1017256539": {
+    "Nombre": "Carlos Mateo Moreno Osorio",
+    "Matematicas": {
+      "Notas": [
+        5.0,
+        4.5,
+        3.0,
+        2.8,
+        1.0
+      ],
+      "Promedio": 3.2600000000000002
+    },
+    "Ingles": {
+      "Notas": [
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0
+      ],
+      "Promedio": 5.0
+    },
+    "Programacion": {
+      "Notas": [
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0
+      ],
+      "Promedio": 5.0
+    },
+    "Promedio_semestre": 4.42
+  },
+  "2": {
+    "Nombre": "2",
+    "Matematicas": {
+      "Notas": [
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0
+      ],
+      "Promedio": 2.0
+    },
+    "Ingles": {
+      "Notas": [
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0
+      ],
+      "Promedio": 2.0
+    },
+    "Programacion": {
+      "Notas": [
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0
+      ],
+      "Promedio": 2.0
+    },
+    "Promedio_semestre": 2.0
+  }
+}

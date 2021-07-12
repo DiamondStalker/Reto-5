@@ -105,6 +105,8 @@ def Promedio(lista):
 
   
 # ---------- Insertar nota Matematicas ----------
+# Se trabaja de forma recursiva para cuando ingresa una nota fuera del rango
+
 def Llenar_notas(lista,i):
   if i < 5:
     valor = float ( input (f"\n          Ingrese la nota #{i+1} entre los  0 - 5 : "))
