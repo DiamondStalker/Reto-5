@@ -57,11 +57,11 @@ def Nuevo_usuario():
         
 
     for i in range (0,3):
-      if i == 0: PromedioM = Promedio(Matematicasu)
-      if i == 1: PromedioI = Promedio(Inglesu)
-      if i == 2: PromedioP = Promedio(Programacionu)
+      if i == 0: PromedioM = float("{:.2f}".format(Promedio(Matematicasu)))
+      if i == 1: PromedioI = float("{:.2f}".format(Promedio(Inglesu)))
+      if i == 2: PromedioP = float("{:.2f}".format(Promedio(Programacionu)))
 
-    PromedioS = ((PromedioM+PromedioI+PromedioP)/3)
+    PromedioS = float("{:.2f}".format(((PromedioM+PromedioI+PromedioP)/3)))
     Datos = {}
     Datos=dict(
       Nombre = Nombreu,
